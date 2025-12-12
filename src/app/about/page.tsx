@@ -4,19 +4,17 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  ArrowLeft, 
-  Award, 
-  Building2, 
-  Users, 
+import {
+  ArrowLeft,
+  Award,
+  Building2,
+  Users,
   Target,
   Shield,
-  Clock,
   CheckCircle,
   Star,
   TrendingUp,
   Globe,
-  Certificate,
   FileText
 } from "lucide-react";
 import Link from "next/link";
@@ -69,7 +67,7 @@ export default function AboutPage() {
     {
       name: "ISO 9001:2015",
       description: "Sistem Manajemen Mutu",
-      icon: Certificate
+      icon: Award
     },
     {
       name: "ISO 45001:2018",
