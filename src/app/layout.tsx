@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" suppressHydrationWarning>
-      </head>
+      <head>
        <meta name="facebook-domain-verification" content="vemgjbyrufn2lq860r9pq9ht9h6bbz" />
       </head>
       <body
